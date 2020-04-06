@@ -1,6 +1,6 @@
 <h1>Posts</h1>
-<ul>
+<div>
   <% @posts.each do |p| %>
-    <li><%= p.title %> - <%= p.description %></li>
+    <div><%= p.title%> - <%=p.description %></div>
   <% end %>
-</ul>
+</div>
